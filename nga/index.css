@@ -1,0 +1,40 @@
+body{
+    background-color: #333;
+}
+
+#revolver{
+    width: 20lvh;
+    aspect-ratio: 1;
+
+    background-color: #444;
+
+    top: 50%;
+    left: 50%;
+
+    position: absolute;
+
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.person{
+    width: 10lvh;
+    aspect-ratio: 1;
+
+    background-color: #222;
+
+    position: absolute;
+}
+
+#player-one{
+    top: 10%;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
+
+#player-two{
+    top: 80%;
+    left: 50%;
+
+    transform: translateX(-50%);
+}
